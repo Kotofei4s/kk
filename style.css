@@ -18,9 +18,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items:center;
-font-style:;
-
-
+font-style: normal;
 }
 
 
@@ -31,5 +29,9 @@ right: 0;
 bottom: 0;
 min-width: 100%;
 min-height: 100%;
+}
 
+.navigator ul{
+   text-decoration-line: none;
+   cursor: context-menu;
 }
