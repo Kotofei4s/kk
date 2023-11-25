@@ -1,25 +1,104 @@
 
 body {
-  font-size: large;
-  font-weight: normal;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
 } 
+.container {
+  display: flex;
+  background-image: url(kartinkin-net.jpg);
+ 
+}
+.container > div {
+ padding: 10px;
+ margin: 10px;
+}
+.button {
+  list-style: none;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navigator {
+  list-style: none;
+}
+
+.mesto_raboty {
+  background: #e5ffe7;
+}
+.obrazovanye {
+  background: #fff9dc;
+}
+.Hobbi {
+  background: #ffe5e5;
+}
+.Yazik {
+  background: #e5ffe7;
+}
+.Zarplata {
+  background: #fff9dc;
+}
+.Information {
+  background: #ffe5e5;
+}
+
+
+.container2 {
+  width: 100%;
+  height: 100%;
+  
+}
+
+@media (max-width: 800px){
+.container {
+  text-align: center;
+  display: block;
+}
+}
+
+.Knopka_vozvrata {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+}
+
+.Knopka_vozvrata svg g {
+  fill: red;
+  }
+
+.Knopka_vozvrata svg:hover {
+fill: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mesto_raboty > div {
+  display: flex;
+  width: 25%;
+  height: 25%;
+  padding-bottom: 20px;
+}
+
+
 
 .avatar{
     border-radius: 28px;
-    width: 600px;
-    
+    width: 400px;
 }
 
-.container{
-position: relative;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items:center;
-font-style: normal;
-}
+
 
 
 .videoclip{
@@ -31,7 +110,18 @@ min-width: 100%;
 min-height: 100%;
 }
 
-.navigator ul{
-   text-decoration-line: none;
-   cursor: context-menu;
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+.icons{
+border-radius: 28px;
+opacity:10%;
 }
